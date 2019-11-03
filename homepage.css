@@ -1,5 +1,5 @@
 /*Font Import*/
-@import url('https://fonts.googleapis.com/css?family=Lato|Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Lora|Belgrano&display=swap');
 /*Font Import*/
 
 /*NavBar Start*/
@@ -15,7 +15,7 @@
     align-content: center;
     text-decoration: none;
     color: white;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Belgrano', sans-serif;
     font-size: 5vw;
 }
 
@@ -24,10 +24,11 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    height: 10vh;
-    margin-top: 3vh;
+    height: 5vw;
+    margin-top: 2.5vw;
     font-family: 'Lato', sans-serif;
     background-color: black;
+    width: 100%;
 }
 
 .nav-links {
@@ -62,30 +63,58 @@
 
 /*Landing Area End*/
 /*Mini Product Menu Start*/
+#mini-product-menu-logo-section {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    width: 100%;
+}
+#mini-product-menu-logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5vw;
+}
 #mini-product-menu {
     width: 100%;
-    height: 25vh;
+    height: 25vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    margin-top: -25px;
 }
-
+.mini-product-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    font-size: 1.5vw;
+}
+.mini-product-link:hover {
+    transition: all 0.5s;
+   opacity: 0.5;
+}
 .mini-product-menu-item {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
     margin-right: 25px;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
 
 }
 .mini-product-menu-img {
-width: 25px;
-height: 25px;
+width: 5vw;
+height: 5vw;
 }
 
 .mini-product-menu-item-text {}
