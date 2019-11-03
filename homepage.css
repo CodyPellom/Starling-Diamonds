@@ -1,0 +1,93 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Lora&display=swap');
+/*Font Import*/
+
+/*NavBar Start*/
+#nav-section {
+    background-color: black;
+    width: 100%;
+}
+
+#nav-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lora', sans-serif;
+    font-size: 5vw;
+}
+
+#nav-links-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 10vh;
+    margin-top: 3vh;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    margin-right: 2vw;
+    font-size: 2.5vw;
+}
+
+.nav-links:hover {
+    transition: all 1s;
+    opacity: 0.75;
+}
+
+/*NavBar End*/
+/*--------------------------*/
+/*--------------------------*/
+/*Landing Area Start*/
+.landing-section {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#landing-image {
+    width: 100%;
+    height: 50vw;
+}
+
+/*Landing Area End*/
+/*Mini Product Menu Start*/
+#mini-product-menu {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.mini-product-menu-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+
+}
+.mini-product-menu-img {
+width: 25px;
+height: 25px;
+}
+
+.mini-product-menu-item-text {}
+
+/*Mini Product Menu End*/
