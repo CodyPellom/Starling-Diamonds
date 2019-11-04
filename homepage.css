@@ -1,7 +1,9 @@
 /*Font Import*/
 @import url('https://fonts.googleapis.com/css?family=Lato|Lora|Belgrano&display=swap');
 /*Font Import*/
-
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
 /*NavBar Start*/
 #nav-section {
     background-color: white;
@@ -130,6 +132,46 @@
 
 /*Mini Product Menu End*/
 /*==============================*/
+/*Main Ad Section*/
+.main-ad-section {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.main-ad-body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    width: 30vw;
+    text-align: center;
+}
+.main-ad-img {
+width: 25vw;
+height: 25vw;
+}
+.main-ad-link-body {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+
+}
+.main-ad-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+/*Main Ad Section End*/
 /*==============================*/
 /*Overview Section Start*/
 .overview-section {
@@ -154,11 +196,11 @@
 	justify-content: center;
 	align-items: center;
     align-content: center;
+    width: 100%;
     
 }
 .overview-item {
-    margin-right: 2.5vw;
-    width: 15vw;
+    width: 25vw;
     height: 25vw;
     display: flex;
 	flex-direction: column;
@@ -172,10 +214,12 @@
 .overview-item-description {
     font-family: 'Lato', sans-serif;
     font-size: 2vw; 
+    width: 20vw;
+
 }
 .overview-item-img {
-    width: 5vw;
-    height: 5vw;
+    width: 7.5vw;
+    height: 7.5vw;
 }
 
 /*Overview Section End*/
